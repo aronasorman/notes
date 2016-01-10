@@ -1,0 +1,186 @@
+* FLE
+** Recurring
+*** TODO reconcile xero transactions
+SCHEDULED: <2016-01-15 Fri .+1w>
+:PROPERTIES:
+:STYLE:    habit
+:END:
+*** TODO pay contractors
+SCHEDULED: <2016-01-15 Fri .+2w/3w>
+:PROPERTIES:
+:STYLE:    habit
+:END:
+*** TODO Read email and plan day
+SCHEDULED: <2016-01-09 Sat .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2016-01-08 Fri 08:33]
+:END:
+- State "DONE"       from "TODO"       [2016-01-08 Fri 08:33]
+- State "DONE"       from "TODO"       [2016-01-06 Wed 13:30]
+- State "DONE"       from "TODO"       [2016-01-05 Tue 09:00]
+:LOGBOOK:
+CLOCK: [2016-01-08 Fri 08:17]--[2016-01-08 Fri 08:32] =>  0:15
+CLOCK: [2016-01-07 Thu 07:22]--[2016-01-07 Thu 07:31] =>  0:09
+CLOCK: [2016-01-06 Wed 13:13]--[2016-01-06 Wed 13:30] =>  0:17
+CLOCK: [2016-01-06 Wed 10:55]--[2016-01-06 Wed 11:10] =>  0:15
+CLOCK: [2016-01-06 Wed 10:45]--[2016-01-06 Wed 10:55] =>  0:10
+CLOCK: [2016-01-05 Tue 07:51]--[2016-01-05 Tue 07:54] =>  0:03
+CLOCK: [2016-01-05 Tue 07:50]--[2016-01-05 Tue 07:50] =>  0:00
+CLOCK: [2016-01-05 Tue 07:19]--[2016-01-05 Tue 07:44] =>  0:25
+:END:
+** Bugfixing and testing
+*** DONE Test OS X installer [[http://dungeon.learningequality.org:8085/browse/KL-MT16-41/artifact][link]]
+CLOSED: [2016-01-08 Fri 08:19] SCHEDULED: <2016-01-13 Wed>
+:PROPERTIES:
+:ARCHIVE_TIME: 2016-01-05 Tue 09:35
+:ARCHIVE_FILE: ~/notes/work.org
+:ARCHIVE_OLPATH: FLE/Bugfixing
+:ARCHIVE_CATEGORY: work
+:ARCHIVE_TODO: WAIT
+:END:
+- State "DONE"       from "WAIT"       [2016-01-08 Fri 08:19]
+- State "WAIT"       from "TODO"       [2016-01-05 Tue 09:18] \\
+  Waiting on uninstaller.
+:LOGBOOK:
+CLOCK: [2016-01-05 Tue 08:54]--[2016-01-05 Tue 09:19] =>  0:25
+CLOCK: [2016-01-05 Tue 07:54]--[2016-01-05 Tue 08:16] =>  0:22
+:END:
+  [2016-01-05 Tue]
+  [[file:~/notes/work.org::*Read%20email%20and%20plan%20day][Read email and plan day]]
+*** TODO Debug pt-BR lang pack
+DEADLINE: <2016-01-09 Sat>
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*answer%20support%20forums,%20decide%20on%20forums'%20fate][answer support forums, decide on forums' fate]]
+*** DONE test OS X installer uninstall + UI with jessica
+CLOSED: [2016-01-08 Fri 11:34] SCHEDULED: <2016-01-08 Fri>
+- State "DONE"       from "WAIT"       [2016-01-08 Fri 11:34]
+- State "WAIT"       from "TODO"       [2016-01-08 Fri 08:50] \\
+  UI looks good. Waiting for Jessica to test.
+:LOGBOOK:
+CLOCK: [2016-01-08 Fri 08:34]--[2016-01-08 Fri 08:51] =>  0:17
+:END:
+  [2016-01-08 Fri]
+  [[file:~/notes/work.org::*Read%20email%20and%20plan%20day][Read email and plan day]]
+** Buildserver
+*** TODO Shift buildserver to use a single sdist
+*** TODO integrate Debian 
+*** TODO Look into other buildserver alternatives
+** Content packs
+*** TODO Create a document on how the user retrieves the content DB
+*** TODO mail merge dev applicants
+*** TODO Implement topic removal
+DEADLINE: <2016-01-12 Tue>
+*** TODO Automate uploading of content dbs
+DEADLINE: <2016-01-08 Fri> SCHEDULED: <2016-01-05 Tue>
+:LOGBOOK:
+CLOCK: [2016-01-07 Thu 14:43]--[2016-01-07 Thu 14:56] =>  0:13
+CLOCK: [2016-01-05 Tue 12:53]--[2016-01-05 Tue 13:18] =>  0:25
+CLOCK: [2016-01-05 Tue 12:35]--[2016-01-05 Tue 12:47] =>  0:12
+CLOCK: [2016-01-05 Tue 10:23]--[2016-01-05 Tue 10:48] =>  0:25
+CLOCK: [2016-01-05 Tue 09:41]--[2016-01-05 Tue 10:06] =>  0:25
+:END:
+*** DONE Add content pack metadata
+CLOSED: [2016-01-07 Thu 14:30] DEADLINE: <2016-01-07 Thu>
+- State "DONE"       from "TODO"       [2016-01-07 Thu 14:30]
+:LOGBOOK:
+CLOCK: [2016-01-07 Thu 14:14]--[2016-01-07 Thu 14:30] =>  0:16
+CLOCK: [2016-01-07 Thu 13:50]--[2016-01-07 Thu 14:14] =>  0:24
+CLOCK: [2016-01-07 Thu 11:47]--[2016-01-07 Thu 13:07] =>  1:20
+CLOCK: [2016-01-07 Thu 11:18]--[2016-01-07 Thu 11:27] =>  0:09
+CLOCK: [2016-01-07 Thu 10:40]--[2016-01-07 Thu 10:55] =>  0:15
+CLOCK: [2016-01-07 Thu 07:31]--[2016-01-07 Thu 09:11] =>  1:40
+CLOCK: [2016-01-06 Wed 15:47]--[2016-01-06 Wed 17:04] =>  1:17
+:END:
+*** TODO Read kolibri content metadata doc [[https://docs.google.com/document/d/1XXXNA2ae8hHt3p7JuiGFDtHYPckgdVEkPdG01bGOWtE/edit][link]]
+DEADLINE: <2016-01-08 Fri>
+:LOGBOOK:
+CLOCK: [2016-01-06 Wed 17:07]--[2016-01-06 Wed 18:02] =>  0:55
+:END:
+*** TODO add count of how many topic titles and descriptions are untranslatable
+  [2016-01-07 Thu]
+  [[file:~/src/github.com/fle-internal/content-pack-maker/contentpacks/utils.py::metadata_name%20=%20"{}_metadata.json".format(metadata%5B"code"%5D)]]
+** Fixing our servers
+*** TODO Read up on docker orchestration and create a prototype for globe
+:LOGBOOK:
+CLOCK: [2016-01-04 Mon 18:28]--[2016-01-04 Mon 18:30] =>  0:02
+:END:
+*** TODO Centralize logging in one place
+*** TODO Implement telemetry across all docker-handled servers
+:LOGBOOK:
+CLOCK: [2016-01-04 Mon 18:32]--[2016-01-04 Mon 18:55] =>  0:23
+:END:
+**** TODO Integrate Hakka -- packet monitor
+**** TODO Integrate sysdig -- system stats
+** Benchmark server
+*** DONE Finish writeup for benchmark server
+CLOSED: [2016-01-06 Wed 14:39] SCHEDULED: <2016-01-05 Tue>
+- State "DONE"       from "TODO"       [2016-01-06 Wed 14:39]
+:LOGBOOK:
+CLOCK: [2016-01-06 Wed 13:30]--[2016-01-06 Wed 14:39] =>  1:09
+:END:
+  [2016-01-04 Mon]
+** Hiring and HR
+*** TODO Scan through dev applicants
+SCHEDULED: <2016-01-06 Wed>
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*Read%20email%20and%20plan%20day][Read email and plan day]]
+*** DONE Add contractor template to hellosign
+CLOSED: [2016-01-08 Fri 12:27] DEADLINE: <2016-01-08 Fri>
+- State "DONE"       from "TODO"       [2016-01-08 Fri 12:27]
+:LOGBOOK:
+CLOCK: [2016-01-08 Fri 11:40]--[2016-01-08 Fri 12:27] =>  0:47
+:END:
+  [2016-01-05 Tue]
+*** DONE Email symplicity candidates to use our form
+CLOSED: [2016-01-06 Wed 15:46] SCHEDULED: <2016-01-06 Wed>
+- State "DONE"       from "TODO"       [2016-01-06 Wed 15:46]
+:LOGBOOK:
+CLOCK: [2016-01-06 Wed 15:28]--[2016-01-06 Wed 15:46] =>  0:18
+:END:
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*Hiring%20and%20HR][Hiring and HR]]
+*** DONE Look into kaiser termination email
+CLOSED: [2016-01-06 Wed 15:26] DEADLINE: <2016-01-07 Thu>
+- State "DONE"       from "TODO"       [2016-01-06 Wed 15:26]
+:LOGBOOK:
+CLOCK: [2016-01-06 Wed 14:43]--[2016-01-06 Wed 15:26] =>  0:43
+:END:
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*Read%20email%20and%20plan%20day][Read email and plan day]]
+*** TODO answer support forums, decide on forums' fate
+SCHEDULED: <2016-01-15 Fri>
+- State "DONE"       from "TODO"       [2016-01-08 Fri 08:32]
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*Read%20email%20and%20plan%20day][Read email and plan day]]
+*** DONE use streak for sending out follow up email to dev applicants
+CLOSED: [2016-01-08 Fri 15:03] SCHEDULED: <2016-01-08 Fri>
+:PROPERTIES:
+:ID:       b6199656-b694-4e21-b8dc-b9b72566faa8
+:END:
+- State "DONE"       from "TODO"       [2016-01-08 Fri 15:03]
+:LOGBOOK:
+CLOCK: [2016-01-08 Fri 14:27]--[2016-01-08 Fri 15:03] =>  0:36
+CLOCK: [2016-01-08 Fri 12:30]--[2016-01-08 Fri 13:23] =>  0:53
+CLOCK: [2016-01-08 Fri 08:51]--[2016-01-08 Fri 11:39] =>  2:48
+:END:
+  [2016-01-06 Wed]
+  [[file:~/notes/benchmark%20server%20notes.org::*Automated%20clients][Automated clients]]
+*** CANCELED write benefits email
+CLOSED: [2016-01-08 Fri 08:17] SCHEDULED: <2016-01-06 Wed>
+- State "CANCELED"   from "TODO"       [2016-01-08 Fri 08:17] \\
+  Still working with zenefits for their commuter benefits card.
+:LOGBOOK:
+CLOCK: [2016-01-06 Wed 18:03]--[2016-01-06 Wed 19:07] =>  1:04
+:END:
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*Add%20contractor%20template%20to%20hellosign][Add contractor template to hellosign]]
+*** send invoice format
+*** DONE finish commuter benefits application
+CLOSED: [2016-01-10 Sun 04:57] SCHEDULED: <2016-01-09 Sat>
+- State "DONE"       from "TODO"       [2016-01-10 Sun 04:57]
+:LOGBOOK:
+CLOCK: [2016-01-09 Sat 18:44]--[2016-01-09 Sat 19:36] =>  0:52
+:END:
+  [2016-01-09 Sat]
+  [[file:~/notes/capture.org::*Look%20into%20debian%20unattended%20upgrades][Look into debian unattended upgrades]]

@@ -1,0 +1,50 @@
+* Draft - Benchmark server components
+** KA Lite instrumentation
+*** When turned on, adds profiling points during startup time, and when API endpoints are called, that tracks certain stats
+*** Activated when KA Lite is set to "profiling mode".
+*** Stats to track (per second)
+**** memory usage
+**** CPU utilization
+**** (optional) 
+*** For benchmarking API endpoints, there will be a special benchmarking endpoint to indicate when to start and stop a benchmarking session
+** Benchmarking clients
+*** Hits the benchmarking endpoints to start a session
+*** Queries certain endpoints we indicate
+*** Ends the benchmarking session by hitting another endpoint
+** KA Lite stats server
+*** Listening and then saving the stats posted by a KA Lite server running in profiling mode
+*** Saves to a DB (postgres? MongoDB?)
+*** Restful API for both saving stats, and retrieving them
+** Visualizing profiling stats
+*** Retrieves the stats from the stats server by hitting the API
+*** Has a dashboard, which displays a graph of a summary for each stat, with the Y axis being the stat, and the X axis the commit
+* Writeup
+** Intro
+*** Goals
+*** Description
+*** Status
+** Components
+*** Instrument KA Lite
+In order to start the stats collection process, KA Lite needs to be modified to
+track startup time and time spent for certain API views. This involves modifying
+KA Lite to track the memory and CPU utilization over both startup time and an
+API call.
+
+If profiling mode is activated, add fake entries too.
+ 
+**** store that in local filesystem
+**** requirements
+***** 
+
+
+*** Automated clients
+If we want to run the benchmarking procedure on the reg, we need an automated
+procedure for making API requests that are similar to how a user makes a
+request. Thus, we will need to craft programs that make specific API requests,
+mirroring the kind of requests that will be queried in the real world.
+*** Stats collection server
+Once the benchmarking procedure is done, there will need to be a central place
+where all the profiling results are collected. 
+*** Stats visualizer
+Once we have a database of benchmark results, they will need to visualized for
+the developers to make sense of it.

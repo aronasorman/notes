@@ -1,0 +1,27 @@
+* Tasks
+** DONE setup org mode for habits
+CLOSED: [2016-01-04 Mon 17:59]
+:LOGBOOK:
+CLOCK: [2016-01-04 Mon 17:50]--[2016-01-04 Mon 17:59] =>  0:09
+CLOCK: [2016-01-04 Mon 17:17]--[2016-01-04 Mon 17:42] =>  0:25
+:END:
+  [2016-01-04 Mon]
+  [[file:~/.spacemacs::(setq%20org-refile-targets%20'((org-agenda-files%20:maxlevel%20.%202)))]]
+** TODO buy mac mini for radina
+  [2016-01-04 Mon]
+  [[file:~/notes/capture.org::*setup%20org%20mode%20for%20habits][setup org mode for habits]]
+** TODO setup org mode agenda diary entries
+  [2016-01-04 Mon]
+  [[help:i]]
+** CANCELED mail merge applicants
+CLOSED: [2016-01-08 Fri 14:29] SCHEDULED: <2016-01-08 Fri>
+- State "CANCELED"   from "TODO"       [2016-01-08 Fri 14:29] \\
+  [[file:work.org::*use%20streak%20for%20sending%20out%20follow%20up%20email%20to%20dev%20applicants][duplicate of mail merge task]]
+  [2016-01-05 Tue]
+** TODO Look into debian unattended upgrades
+SCHEDULED: <2016-01-09 Sat>
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*Finish%20writeup%20for%20benchmark%20server][Finish writeup for benchmark server]]
+** TODO Write intro HR email to jordan, david and srishty about invoice workflow
+  [2016-01-08 Fri]
+*** send invoice to me (since there's no work study involved)

@@ -1,0 +1,4 @@
+* Mac installer opinions from Jessica
+** no ones gonna read it
+***  too long, doesn't matter to user
+** remove start / stop/ open in browser buttons from preferences dialog

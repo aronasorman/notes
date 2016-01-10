@@ -1,0 +1,58 @@
+* Coding projects
+** Fitbit Data downloader
+*** TODO Refactor to use SQLite DB (narrowed down to esqueleto or persistent)
+  [2016-01-04 Mon]
+  [[file:~/notes/personal.org::*Misc][Misc]]
+* Misc
+** Habits
+*** TODO Climb
+SCHEDULED: <2016-01-11 Mon .+1d/3d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2016-01-10 Sun 04:58]
+:END:
+- State "DONE"       from "TODO"       [2016-01-10 Sun 04:58]
+- State "DONE"       from "TODO"       [2016-01-09 Sat 18:37]
+*** TODO Read news
+SCHEDULED: <2016-01-09 Sat .+1d>
+:PROPERTIES:
+:STYLE:    habit
+:LAST_REPEAT: [2016-01-08 Fri 15:03]
+:END:
+- State "DONE"       from "TODO"       [2016-01-08 Fri 15:03]
+- State "DONE"       from "TODO"       [2016-01-06 Wed 08:30]
+- State "DONE"       from "TODO"       [2016-01-05 Tue 07:19]
+:LOGBOOK:
+CLOCK: [2016-01-06 Wed 08:19]--[2016-01-06 Wed 08:30] =>  0:11
+CLOCK: [2016-01-05 Tue 07:10]--[2016-01-05 Tue 07:19] =>  0:09
+:END:
+** DONE Upgrade Spacemacs
+CLOSED: [2016-01-05 Tue 09:00] SCHEDULED: <2016-01-05 Tue>
+- State "DONE"       from "TODO"       [2016-01-05 Tue 09:00]
+  [2016-01-05 Tue]
+  [[file:~/notes/personal.org::*Read%20news][Read news]]
+** TODO research org learn
+  [2016-01-05 Tue]
+  [[file:~/src/dotfiles/.emacs.d/elpa/org-plus-contrib-20160104/org-learn.el][file:~/src/dotfiles/.emacs.d/elpa/org-plus-contrib-20160104/org-learn.el]]
+** DONE Buy patagonia torrentshell REI
+CLOSED: [2016-01-05 Tue 18:04] SCHEDULED: <2016-01-05 Tue>
+- State "DONE"       from "TODO"       [2016-01-05 Tue 18:04]
+  [2016-01-04 Mon]
+  [[file:~/notes/work.org::*Read%20email%20and%20plan%20day][Read email and plan day]]
+** DONE Plan new year theme and goals 
+CLOSED: [2016-01-06 Wed 10:31] SCHEDULED: <2016-01-06 Wed>
+- State "DONE"       from "TODO"       [2016-01-06 Wed 10:31]
+:LOGBOOK:
+CLOCK: [2016-01-06 Wed 09:59]--[2016-01-06 Wed 10:26] =>  0:27
+:END:
+  [2016-01-06 Wed]
+  [[file:~/notes/work.org::*Read%20email%20and%20plan%20day][Read email and plan day]]
+** TODO Sync and back up org mode files
+SCHEDULED: <2016-01-10 Sun>
+:LOGBOOK:
+CLOCK: [2016-01-10 Sun 05:02]
+:END:
+  [2016-01-10 Sun]
+  [[file:~/notes/personal.org::*Read%20news][Read news]]
+*** Sync with toodledo
+*** Backup with Github
