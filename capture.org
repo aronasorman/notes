@@ -20,8 +20,17 @@ CLOSED: [2016-01-08 Fri 14:29] SCHEDULED: <2016-01-08 Fri>
   [2016-01-05 Tue]
 ** TODO Look into debian unattended upgrades
 SCHEDULED: <2016-01-09 Sat>
+:LOGBOOK:
+CLOCK: [2016-01-10 Sun 12:39]--[2016-01-10 Sun 19:19] =>  6:40
+:END:
   [2016-01-06 Wed]
   [[file:~/notes/work.org::*Finish%20writeup%20for%20benchmark%20server][Finish writeup for benchmark server]]
 ** TODO Write intro HR email to jordan, david and srishty about invoice workflow
   [2016-01-08 Fri]
 *** send invoice to me (since there's no work study involved)
+** TODO setup unattended upgrades
+  [2016-01-11 Mon]
+  [[file:~/notes/work.org::*Automate%20uploading%20of%20content%20dbs][Automate uploading of content dbs]]
+*** playbook for setting up apticron and unattended-upgrades
+*** setup emailing for unattended-upgrades
+SCHEDULED: <2016-01-15 Fri>
