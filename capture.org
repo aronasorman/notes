@@ -18,8 +18,10 @@ CLOSED: [2016-01-08 Fri 14:29] SCHEDULED: <2016-01-08 Fri>
 - State "CANCELED"   from "TODO"       [2016-01-08 Fri 14:29] \\
   [[file:work.org::*use%20streak%20for%20sending%20out%20follow%20up%20email%20to%20dev%20applicants][duplicate of mail merge task]]
   [2016-01-05 Tue]
-** TODO Look into debian unattended upgrades
-SCHEDULED: <2016-01-16 Sat>
+** CANCELED Look into debian unattended upgrades
+CLOSED: [2016-01-18 Mon 09:55] SCHEDULED: <2016-01-16 Sat>
+- State "CANCELED"   from "TODO"       [2016-01-18 Mon 09:55] \\
+  cloud66 automatically upgrades systems. I'll go with that for now.
 :LOGBOOK:
 CLOCK: [2016-01-10 Sun 12:39]--[2016-01-10 Sun 19:19] =>  6:40
 :END:
