@@ -1,0 +1,25 @@
+* Webpack vs browserify
+** links
+*** https://gist.github.com/substack/68f8d502be42d5cd4942
+*** http://blog.namangoel.com/browserify-vs-webpack-js-drama
+*** http://browserify.org/
+*** https://webpack.github.io/
+** browserify
+- made to "run node code in the browser"
+- designed to run with nodejs
+- other functionalities are added through plugins and transforms
+** webpack
+- designed to manage assets
+- large core designed for that vs. small core of browserify
+** Opinions
+- if we're just going for static asset handling, go with webpack
+- especially if we're not pulling in a lot of nodejs modules
+- webpack's large core may be enough for our needs (the big question)
+** Verdict
+- webpack fits our needs, if we're OK with just static asset management.
+* Webpack folder structuring
+** links
+*** https://webpack.github.io/docs/tutorials/getting-started/
+*** https://webpack.github.io/docs/what-is-webpack.html
+*** LESS loader: https://github.com/webpack/less-loader
+
