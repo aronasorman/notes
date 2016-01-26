@@ -22,4 +22,22 @@
 *** https://webpack.github.io/docs/tutorials/getting-started/
 *** https://webpack.github.io/docs/what-is-webpack.html
 *** LESS loader: https://github.com/webpack/less-loader
+* Integrating webpack with django
+** links
+*** how to: http://owaislone.org/blog/webpack-plus-reactjs-and-django/
+*** why skip staticfiles: http://owaislone.org/blog/modern-frontends-with-django/
+** why skip django staticfiles
+*** "opaque, slow and hard to debug"
+*** "Manually maintaining dependencies is a pain"
+*** verdict: i'm not completely convinced by the arguments made by the link above. But webpack may be good enough. yet to try
+** dev process
+*** webpack-dev-server for dev purposes? Supports hot code reloading for react. Means compilation and serving is handled by webpack's
+*** optionally, we can compile to a certain dir and then django moves it during collectstatic
+*** special webpack config for dev
+** prod
+*** compiled during installer or sdist build time
+*** special webpack config for prod
+
+
+
 
