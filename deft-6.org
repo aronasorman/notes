@@ -1,0 +1,30 @@
+* Kolibri frontend design
+** Mediator-Facade-Module pattern
+*** links
+**** https://addyosmani.com/largescalejavascript/
+*** Mediator
+**** main way of communicating between modules
+**** modules broadcast events, other modules can listen to an event and react when an event is published
+*** Facade
+**** Clean API for interacting with the mediator
+**** Aron: not exactly sure yet what API methods we should expose
+*** Modules
+**** Self contained pieces of code that are related to each other
+**** examples:
+***** chat system
+***** a specific type of content recommendation
+***** an exercise
+*** Questions
+**** Should a group of modules have their own mediator (say, between different types of content recommenders), or just one supermediator (the UN?)
+**** How are we doing module permissions? How can we guarantee that a module that did not request, say, DB access, won't be able to access it?
+
+** Mediator default events
+Events that we guarantee should be in kolibri.core. Basically, functionality that all modules will likely use.
+
+*** Writing to the server-side DB
+*** Writing to localstorage
+*** Module lifecycles
+**** module X loaded
+**** module X unloaded
+*** Certain content requested to be loaded by the user
+
