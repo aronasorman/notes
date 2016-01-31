@@ -2,15 +2,6 @@
 ** Needs
 *** Be easily testable -- guarantee that certain things are indeed loaded, or the state can be easily queryable to make things easier to test.
 *** Loose coupling between plugins -- because we can only guarantee the core plugins, other plugins should not load or avoid certain actions if their dependent plugins aren't loaded
-**** Javascript for integration tests?
-**** Limit running of integration tests to certain scenarios only? release branches only?
-**** Karma for JS unit testing -- test runner
-**** which unit testing framework? Jasmine? QUnit? Jest?
-*** Structure backend server - frontend application -- do we want all backend server interaction to be wrapped in a library?
-**** advantages
-***** cleaner
-***** changing API is easier
-**** disadvantages
 *** Plugins must be able to write to the page
 *** Plugins must be able to make API requests
 *** Minimize the total number of assets loaded -- ultimate goal: make the page user-interactable as fast as possible
@@ -35,14 +26,10 @@
 *** Questions
 **** Should a group of modules have their own mediator (say, between different types of content recommenders), or just one supermediator (the UN?)
 **** How are we doing module permissions? How can we guarantee that a module that did not request, say, DB access, won't be able to access it? Or is it just a free-for-all?
+
 ** Mediator default events
 Events that we guarantee should be in kolibri.core. Basically, functionality that all modules will likely use.
-*** Mediator lifecycle
-**** Mediator is loaded
-**** All plugins set to run in that page have their initial JS loaded
-**** plugin initial JS is run. This should be as minimal as possible. Plugin-specific events are created during this phase, and all event registration should be done in here.
-**** Mediator event registration is disabled.
-**** DOM should continue evaluating. DOM related events should be firing at this point.
+
 *** Making an API request
 *** Writing to localstorage
 *** Module lifecycles
@@ -51,8 +38,6 @@ Events that we guarantee should be in kolibri.core. Basically, functionality tha
 **** module X unloading started
 **** module X unloading completed
 *** Certain content requested to be loaded by the user
-*** Other plugins can request certain plugins to be loaded or unloaded
-*** Enforce that all event registration should happen during initial mediator and plugin setup phase
 *** DOM state
 **** ready
 **** loaded
@@ -67,7 +52,6 @@ Events that we guarantee should be in kolibri.core. Basically, functionality tha
 ***** create-new-event
 ***** publish-event
 ***** can modules even have access to these raw functions in the first place? Or will it be prettified by the facade?
-
 ** Modules
 *** Has a lifecyle
 **** Code is executed by the core during different segments of the lifecycle
@@ -110,8 +94,3 @@ Basically, the API.
 **** Nice thing is, if it's a facade the interface can stay the same but we can change the implementation (mediator, underlying modules) however we want!
 *** Questions
 **** I only have a very vague notion on how this should wrap the mediator. Richard help!
-*** Give django plugin, model, we'll return 
-*** note: tastypie 
-*** utility functions
-**** startndard kolibr backbone class
-**** jquery, backbone, namespaced here
