@@ -11,6 +11,8 @@
 ***** cleaner
 ***** changing API is easier
 **** disadvantages
+**** How do
+***** something like django-js-reverse. Possibly extend with a nicer wrapper?
 *** Plugins must be able to write to the page
 *** Plugins must be able to make API requests
 *** Minimize the total number of assets loaded -- ultimate goal: make the page user-interactable as fast as possible
